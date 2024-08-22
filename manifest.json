@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Wikipedia-Suche (DE)",
+  "version": "1.0",
+  "description": "Wikipedia-Suche auf de.wikipedia.org",
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Wikipedia (DE)",
+      "search_url": "https://de.wikipedia.org/w/index.php?fulltext=1&search={searchTerms}&title=Spezial%3ASuche&ns0=1",
+      "keyword": "wde",
+      "favicon_url": "https://de.wikipedia.org/static/favicon/wikipedia.ico",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+}
